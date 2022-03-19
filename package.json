@@ -1,0 +1,31 @@
+{
+  "name": "cowsay",
+  "version": "1.0.0",
+  "description": "Make a cow say a thing",
+  "main": "cowsay.js",
+  "scripts": {
+    "start": "node cowsay.js",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/charlie-r-gray/cowsay.git"
+  },
+  "keywords": [
+    "Cowsay",
+    "repo",
+    "test"
+  ],
+  "author": "crgray",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/charlie-r-gray/cowsay/issues"
+  },
+  "homepage": "https://github.com/charlie-r-gray/cowsay#readme",
+  "dependencies": {
+    "cowsay": "^1.5.0"
+  },
+  "devDependencies": {
+    "jest": "^27.5.1"
+  }
+}
